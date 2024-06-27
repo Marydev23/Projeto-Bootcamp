@@ -1,6 +1,5 @@
-public class NavegadorInternet {
-    void exibirPagina(Strinf url);
-    void AdicionarNovaAba();
-    void atualizar();
-    
+public interface NavegadorInternet {
+    void exibirPagina(String url);
+    void adicionarNovaAba();
+    void atualizarPagina();
 }
